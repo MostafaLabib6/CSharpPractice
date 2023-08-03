@@ -1,5 +1,4 @@
-﻿//// See https://aka.ms/new-console-template for more information
-public class LogFileMessage
+﻿public class LogFileMessage
 {
     private readonly string _logPath;
     public LogFileMessage(string logPath)

@@ -1,0 +1,17 @@
+
+Let's define a component that could be used for log messages in a large system.
+The library components could be used in many different environments, on multiple different platforms.
+There are a lot of common features in the component that manages the logs. It will need to accept messages from any component in the system.
+Those messages will have different priorities, which the core component can manage. The messages should have timestamps in their final archived form.
+For more advanced scenarios, you could filter messages by the source component.
+
+There is one aspect of the feature that will change often: where messages are written. In some environments, they may be written to the error console.
+In others, a file. Other possibilities include database storage, OS event logs, or other document storage.
+
+There are also combinations of output that might be used in different scenarios. You may want to write messages to the console and to a file.
+
+A design based on delegates will provide a great deal of flexibility, and make it easy to support storage mechanisms that may be added in the future.
+
+Under this design, the primary log component can be a non-virtual, even sealed class. 
+You can plug in any set of delegates to write the messages to different storage media. 
+The built-in support for multicast delegates makes it easy to support scenarios where messages must be written to multiple locations (a file, and a console).

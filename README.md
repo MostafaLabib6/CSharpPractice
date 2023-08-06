@@ -6,5 +6,5 @@ Welcome to the CSharpPractice repository! This repository is designed to help yo
 - **[Roadmap](https://roadmap.sh/aspnet-core)**
 
 ## Added Topics
-- **[Delegate] (https://github.com/MostafaLabib6/CSharpPractice/tree/master/Delegate-Practice)** 
-- **[Events] (https://github.com/MostafaLabib6/CSharpPractice/tree/master/Events-Practice)** 
+- **[Delegate](https://github.com/MostafaLabib6/CSharpPractice/tree/master/Delegate-Practice)** 
+- **[Event](https://github.com/MostafaLabib6/CSharpPractice/tree/master/Events-Practice)** 

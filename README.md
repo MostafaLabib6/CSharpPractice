@@ -7,3 +7,4 @@ Welcome to the CSharpPractice repository! This repository is designed to help yo
 
 ## Added Topics
 - **[Delegate](https://github.com/MostafaLabib6/CSharpPractice/tree/master/Delegate-Practice)** 
+- **[Events](https://github.com/MostafaLabib6/CSharpPractice/tree/master/Events-Practice)** 
